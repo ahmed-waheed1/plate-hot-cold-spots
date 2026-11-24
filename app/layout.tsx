@@ -21,9 +21,22 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Finding the Hot and Cold Spots on a Heated Plate · Math 3 (BAS 113)",
+  metadataBase: new URL("https://plate-hot-cold-spots.vercel.app"),
+  title: {
+    default: "Hot and Cold Spots on a Heated Plate · Math 3",
+    template: "%s · Hot and Cold Spots",
+  },
   description:
-    "Critical points and the second derivative test on T(x, y) = 50 + x³ − 3x − y³ + 3y. Badr University in Cairo, Faculty of Engineering & Technology, Math 3 (BAS 113), Fall 2026–2027.",
+    "Finding the hot spot, cold spot and saddle points of a heated metal plate with partial derivatives and the second derivative test, with a Python solution and an interactive 3D surface. Math 3 (BAS 113), Badr University in Cairo.",
+  openGraph: {
+    type: "website",
+    siteName: "Hot and Cold Spots",
+    locale: "en_US",
+    url: "/",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export const viewport: Viewport = {

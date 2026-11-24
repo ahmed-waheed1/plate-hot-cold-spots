@@ -1,0 +1,1 @@
+Finding the Hot and Cold Spots on a Heated Plate: hot spot 54 °C, cold spot 46 °C, two saddles at 50 °C.
